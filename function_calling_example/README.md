@@ -1,9 +1,10 @@
 ## Prerequisites
 
-Python poackages:
+Python packages:
 
 - langchain
-- operator
+- langchain_community
+- streamlit
 
 ## Setup
 
