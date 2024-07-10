@@ -11,11 +11,9 @@ from langchain_core.output_parsers import JsonOutputParser
 from operator import itemgetter  # to retrieve specific items in our chain.
 
 import requests
-from datetime import datetime, timedelta
+from datetime import datetime
 import requests
 from typing import List
-from langchain.chat_models.openai import ChatOpenAI
-import os
 from dotenv import load_dotenv
 from langchain_openai import AzureChatOpenAI
 
