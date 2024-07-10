@@ -4,6 +4,8 @@ Python packages:
 
 - langchain
 - langchain_community
+- langchain_openai
+- langsmith
 - streamlit
 
 ## Setup

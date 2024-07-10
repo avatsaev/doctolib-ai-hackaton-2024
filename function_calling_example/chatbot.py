@@ -14,9 +14,18 @@ import requests
 from datetime import datetime, timedelta
 import requests
 from typing import List
+from langchain.chat_models.openai import ChatOpenAI
+import os
+from dotenv import load_dotenv
+from langchain_openai import AzureChatOpenAI
 
 
-model = Ollama(model='mistral:instruct')
+load_dotenv()
+
+# model = Ollama(model='mistral:instruct')
+
+
+model = AzureChatOpenAI(deployment_name="gpt-4o")
 
 
 class Appointment:
